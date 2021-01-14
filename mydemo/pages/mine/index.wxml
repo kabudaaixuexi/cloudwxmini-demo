@@ -1,0 +1,30 @@
+<view class="user_top">
+		<view class="picture">
+				<image src="{{userInfo.picture}}"/>
+		</view>
+		<view class="information">
+				<view class="username">{{userInfo.nickname}}</view>
+				<view class="autograph">{{userInfo.autograph}}</view>
+		</view>
+</view>
+
+<view class="model">
+		<view class="model_item" wx:for="{{optionsModel}}" bindtap="modelClick">
+				<navigator url="{{item.navLink}}" hover-class="navigator-hover">
+						<image src="{{item.iconPath}}" />
+						<view class="model_item_txt">{{item.optionName}}</view>
+				</navigator>
+		</view>
+</view>
+
+
+
+
+
+<i-toast id="toast" />
+<i-message id="message" />
+<i-spin size="large" fix wx:if="{{ spinShow }}"></i-spin>
+	<!-- 底部自定义导航 -->
+	<customTabbar tabbatIndex="2" />
+
+	<movable />

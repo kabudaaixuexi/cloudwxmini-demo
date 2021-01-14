@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh":false,
+  "usingComponents": {
+    "movable":"/components/movable/movable",
+    "customTabbar":"/components/tabbar/tabbar"
+  }
+}

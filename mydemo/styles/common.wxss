@@ -1,0 +1,7 @@
+@import "./anime.wxss";
+.button{
+  padding: 0 !important;
+}
+.i-modal-body{
+  max-height: 1000px !important;
+}

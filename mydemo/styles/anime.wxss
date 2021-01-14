@@ -1,0 +1,22 @@
+/* 呼吸动画 */
+
+.breathing {
+  transition: all 600ms ease;
+  animation: breathe 2s infinite;
+  animation-timing-function: easeOutBack;
+}
+
+@keyframes breathe {
+  0% {
+      transform: translateY(-40%);
+      opacity: .8;
+  }
+  50% {
+      transform: translateY(-70%);
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(-40%);
+      opacity: .8;
+  }
+}

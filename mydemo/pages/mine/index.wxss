@@ -1,0 +1,68 @@
+.user_top{
+  margin: 24rpx;
+  border-radius: 12rpx;
+  background: #fff;
+  display: flex;
+}
+.user_top .picture{
+  margin: 24rpx;
+}
+.user_top .picture image{
+  padding: 0;
+  width: 160rpx;
+  height: 160rpx;
+  background: #f6f6f6;
+  border-radius: 50%;
+  display: block;
+}
+.user_top .information{
+  display: flex;
+  padding: 36rpx 12rpx;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.user_top .information .username{
+  font-size: 36rpx;
+  font-weight: 500;
+}
+.user_top .information .autograph{
+  font-size: 24rpx;
+  color: #999;
+}
+
+.model{
+  background: #fff;
+  margin: 24rpx;
+  border-radius: 12rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.model_item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width:30%;
+  margin: 24rpx 0;
+}
+.model_item image{
+  width: 77rpx;
+  height: 77rpx;
+  padding: 12rpx;
+}
+.model_item .model_item_txt{
+  color: #1296db;
+  font-size: 24rpx;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+navigator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.navigator-hover {
+  background: #ffff;
+}
